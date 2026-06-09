@@ -59,6 +59,7 @@ jobs:
         POSTGRES_DB: transaction_intelligence
         REDIS_HOST: localhost
         REDIS_PORT: 6379
+        PYTHONPATH: .
       run: |
         cd backend
         pytest tests/
